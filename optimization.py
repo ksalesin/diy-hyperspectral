@@ -13,7 +13,6 @@ eng = matlab.engine.start_matlab()
 out = io.StringIO()
 err = io.StringIO()
 
-import rgb2spec
 import tape_data
 import sensor_data
 import munsell_data
